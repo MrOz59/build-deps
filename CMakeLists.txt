@@ -23,6 +23,7 @@ option(BUILD_FFMPEG_CUDA_LLVM "Build FFmpeg with cuda_llvm support when NV codec
 option(BUILD_FFMPEG_NV_CODEC_HEADERS_PATCHES "Apply FFmpeg NV Codec Headers patches" ON)
 option(BUILD_FFMPEG_SVT_AV1 "Build FFmpeg SVT-AV1" ON)
 option(BUILD_FFMPEG_SVT_AV1_PATCHES "Apply FFmpeg SVT-AV1 patches" ON)
+option(BUILD_FFMPEG_VAAPI_PATCHES "Apply FFmpeg VA-API patches" ON)
 option(BUILD_FFMPEG_LIBVA "Build FFmpeg with libva support" ON)
 option(BUILD_FFMPEG_LIBVA_PATCHES "Apply FFmpeg libva patches" ON)
 option(BUILD_FFMPEG_X264 "Build FFmpeg x264" ON)
